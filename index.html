@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game App</title>
+    <meta name="Author" content="Ahmed Saad">
+    <meta name="description" content="This is a simple memory game app.">
+    <link rel="icon" href="Images/site_icon.jpg">
+    <!--Font Awesome V6.4.0-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!--Main tempalte css file-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Render all elements normally normalize.css v8.0.1-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--Work sans google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+ <!-- Start memory Game App -->
+    <div class="container">
+        <div class="mem-app">
+            <div class="info">
+                <div class="name">
+                    Hello <span>Ahmed</span>
+                </div>
+                <div class="timer">00:00</div>
+                <div class="tries">
+                    Wrong Tries: <span>00</span>
+                </div>
+            </div>
+            <div class="mem-game-blocks no-clicking">
+               
+            </div>       
+            </div>
+            <div class="splash-screen splash-screen-start">
+                <input type="text" name="username" placeholder="Enter Your Name">
+                <div class="levels">
+                    <span class="start-btn easy">Start Easy</span>
+                    <span class="start-btn midum">Start Midum</span>
+                    <span class="start-btn hard">Start Hard</span>
+                </div>
+                
+            </div>
+
+            
+            <audio id="success" src="audios/success.mp3" preload="auto"></audio>
+            <audio id="fail" src="audios/failed.wav" preload="auto"></audio>
+            <audio id="doneAll" src="audios/completion-of-a-level.wav" preload="auto"></audio>        </div>
+    </div>
+ <!-- End memory Game App -->
+
+<script src="main.js"></script>
+
+</body>
+
+</html>
